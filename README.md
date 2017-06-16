@@ -12,16 +12,17 @@ sensing. The data logging is performed by a low power micro-controller and data 
 
 ## Getting Started
 FarmCorder was designed to be simple to develop and the components are modular through the use of the i2c bus and allows additional sensors for farm monitoring.
-### Hardware Prerequisites
-1. [Particle Photon/ Particle Electron (Wifi/GSM MCU)]: https://store.particle.io/
-2. [Custom TSL2561 (I2C Light sensor IC) PCB]: https://oshpark.com/shared_projects/ZqXfrnV1
-3. [HDC1000] (I2C Noncontact Temperature sensor): https://www.tindie.com/products/ftruzzi/hdc1000-tiny-temp--humidity-sensor-pcb-only/
-4. [1000mAh LiPo battery]: https://www.sparkfun.com/products/13813
-5. [5V Boost regulator]: https://www.pololu.com/product/798
-6. [650nm LED]: http://uk.rs-online.com/web/p/visible-leds/6545818/
-7. [940nm LED]: http://uk.rs-online.com/web/p/ir-leds/6997714/
-8. [SSD1331 RGB OLED]: https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino
-9. [L80 GPS module MTK3339]: https://www.aliexpress.com/store/product/MTK3339-ultra-small-GPS-Module-with-Dual-Antenna-FGPMMOPA6C-PA6C/605000_531702544.html
+### Hardware Prerequisites 
+
+[Particle Photon/ Particle Electron (Wifi/GSM MCU)]: https://store.particle.io/
+[Custom TSL2561 (I2C Light sensor IC) PCB]: https://oshpark.com/shared_projects/ZqXfrnV1
+[HDC1000]: https://www.tindie.com/products/ftruzzi/hdc1000-tiny-temp--humidity-sensor-pcb-only/
+[1000mAh LiPo battery]: https://www.sparkfun.com/products/13813
+[5V Boost regulator]: https://www.pololu.com/product/798
+[650nm LED]: http://uk.rs-online.com/web/p/visible-leds/6545818/
+[940nm LED]: http://uk.rs-online.com/web/p/ir-leds/6997714/
+[SSD1331 RGB OLED]: https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino
+[L80 GPS module MTK3339]: https://www.aliexpress.com/store/product/MTK3339-ultra-small-GPS-Module-with-Dual-Antenna-FGPMMOPA6C-PA6C/605000_531702544.html
 
 Connections: 
 Connect SDA, SCL of TSL2561 to D0,D1 respectively and Vin,Gnd to 3.3V and Gnd in the Particle Photon. 
