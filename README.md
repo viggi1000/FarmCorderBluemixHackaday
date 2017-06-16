@@ -14,16 +14,15 @@ sensing. The data logging is performed by a low power micro-controller and data 
 FarmCorder was designed to be simple to develop and the components are modular through the use of the i2c bus and allows additional sensors for farm monitoring.
 ### Hardware Prerequisites
 
-```
-	1. Particle Photon/ Particle Electron (Wifi/GSM MCU)
-	2. TSL2561 (I2C Light sensor IC)
-	3. HDC1000 (I2C Noncontact Temperature sensor)
-	4. 1000mAh LiPo battery
-	5. 5V Boost regulator
-	6. 650nm LED
-	7. [940nm LED] 
-	8. [SSD1331 RGB OLED]: https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino
-```
+	Particle Photon/ Particle Electron (Wifi/GSM MCU)
+	TSL2561 (I2C Light sensor IC)
+	HDC1000 (I2C Noncontact Temperature sensor)
+	1000mAh LiPo battery
+	5V Boost regulator
+	650nm LED
+	[940nm LED] 
+	[SSD1331 RGB OLED]: https://github.com/adafruit/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino
+
 Connections: 
 Connect SDA, SCL of MAX30100&MLX90614 to D0,D1 respectively and Vin,Gnd to 3.3V and Gnd in the Particle Photon.
 
